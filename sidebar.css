@@ -1,0 +1,13 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    background: rgb(81, 81, 81);
+    color: #000;
+    transition: 2s;
+}
+
+.hoverButton:focus + .sidebar {
+    display: block;
+    width: 20%;
+}

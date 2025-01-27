@@ -1,0 +1,70 @@
+body {
+    font-size: 16px;
+}
+#dropdown{
+    position: relative;
+    display: inline-block;
+}
+#buttonProp {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#buttonProp:hover {
+    color: red;
+    background-color: yellow;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#dropdown:hover .dropdownMenu {
+    display: block;
+}
+
+.dropdownMenu a {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #000;
+    display: block;
+}
+
+#sampleTable table {
+    width: 50%;
+    border-collapse: collapse;
+    color: #595757;
+}
+
+#sampleTable table th, td {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+#sampleTable table th {
+    background-color: #0cf07e;
+    color: #000;
+    font-weight: 900;
+}
+
+#sampleTable table td:nth-child(2) {
+    color: #000;
+    text-align: left;
+    font-weight: 900;
+}
+
+#sampleTable table tr:hover:nth-child(odd) {
+    background-color: yellow;
+}
+
+#sampleTable table tr:hover:nth-child(even) {
+    background-color: red;
+}

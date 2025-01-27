@@ -1,0 +1,48 @@
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: #0c4101;
+}
+
+.nav-bar ul {
+    display: inline-block;
+}
+
+.nav-bar li {
+    padding: 0 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.dropdownMenu ul {
+    background: #0c4101;
+    color: #fff;
+    display: block;
+    padding: 0;
+}
+
+#navMenu:hover .dropdownMenu {
+    display: block;
+}

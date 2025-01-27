@@ -1,0 +1,78 @@
+body {
+    background-image: url("17973908.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+.container {
+    padding: 20px;
+}
+.rounded {
+    margin: 30px;
+    border: 1px solid #d0d5dd;
+    border-radius: 30px;
+    display: flex;
+    width: fit-content;
+    padding: 5px;
+    margin: 50px auto;
+    gap: 8px;
+    background-color: #f9fafb;
+}
+#startup{
+    border: 1px solid #d0d5dd;
+    border-radius: 30px;
+    background: #fff;
+    padding: 5px 10px;
+}
+#lifetime {
+    border: none;
+    background: none;
+}
+.title p {
+    font-size: 75px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+.title span {
+    color: rgb(54, 168, 54);
+}
+.content-body {
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 25px 420px;
+    line-height: 30px;
+    color: #344054;
+}
+.homeCta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#bookDemo, #signUp {
+    border-radius: 5px;
+    padding: 18px;
+    border: 1px solid rgba(194, 191, 191, 0.86);
+    background: none;
+    font-weight: 900;
+}
+#bookDemo {
+    color: #344054;
+    border: 1px solid rgba(194, 191, 191, 0.86);
+}
+#signUp {
+    color: #fff;
+    background-color: #4ca30d;
+    border: 1px solid #4ca30d;
+}
+#bookDemo:hover {
+    color: #4ca30d;
+    border: 1px solid #4ca30d;
+}
+#signUp:hover {
+    background-color: #3b7c0f;
+    border: 1px solid #3b7c0f;
+}
