@@ -7,6 +7,8 @@ body {
 }
 .container {
     padding: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 .rounded {
     margin: 30px;
@@ -18,6 +20,7 @@ body {
     margin: 50px auto;
     gap: 8px;
     background-color: #f9fafb;
+    flex-wrap: wrap;
 }
 #startup{
     border: 1px solid #d0d5dd;
@@ -43,9 +46,11 @@ body {
     text-align: center;
     font-weight: 500;
     font-size: 18px;
-    padding: 25px 420px;
     line-height: 30px;
     color: #344054;
+    max-width: 75%;
+    margin: auto;
+    padding: 30px 0;
 }
 .homeCta {
     display: flex;
@@ -78,13 +83,14 @@ body {
 }
 .footerCta {
     border: 1px solid #4d4c4c;
-    width: fit-content;
     margin: 100px auto;
     padding: 5px;
     border-radius: 7px;
     display: flex;
     gap: 20px;
     list-style-type: none;
+    flex-wrap: wrap;
+    max-width: 55%;
 }
 .footerCta li {
     background: none;
