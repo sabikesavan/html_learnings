@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .key-rows {
+            margin: 100px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            border: 1px solid #000;
+        }
+        .heading {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .first-row, .second-row, .third-row {
+            display: flex;
+            gap: 5px;
+        }
+        .first-row p, .second-row p, .third-row p {
+            border: 1px solid #000;
+            padding: 20px;
+            width: 50px;
+            text-align: center;
+        }
+        .uniq-keys {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Keyboard flex</h1>
+        </div>
+        <div class="key-rows">
+            <div class="first-row">
+                <p class="uniq-keys">caps lock</p>
+                <p>A</p>
+                <p>S</p>
+                <p>D</p>
+                <p>F</p>
+                <p>G</p>
+                <p>H</p>
+                <p>J</p>
+                <p>K</p>
+                <p>L</p>
+                <p>;</p>
+                <p>'</p>
+                <p class="uniq-keys">return</p>
+            </div>
+            <div class="second-row">
+                <p class="uniq-keys">shift</p>
+                <p>Z</p>
+                <p>X</p>
+                <p>C</p>
+                <p>V</p>
+                <p>B</p>
+                <p>N</p>
+                <p>M</p>
+                <p>,</p>
+                <p>.</p>
+                <p>?</p>
+                <p class="uniq-keys">shift</p>
+            </div>
+            <div class="third-row">
+                <p>fn</p>
+                <p>control</p>
+                <p>option</p>
+                <p>command</p>
+                <p class="uniq-keys">space</p>
+                <p>command</p>
+                <p>option</p>
+                <p><-</p>
+                <p>-</p>
+                <p>-></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
